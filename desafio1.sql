@@ -156,7 +156,7 @@ CREATE TABLE reproduction_history (
     FOREIGN KEY(id_music) REFERENCES musics(id_music)
 );
 
-INSERT INTO `SpotifyClone`.`reprodution_history`
+INSERT INTO `SpotifyClone`.`reproduction_history`
 (`id_user`, `id_music`, `reproduction_date`)
 VALUES	(1, 36, '2020-02-28 10:45:55'),
 	    (1, 25, '2020-05-02 05:30:35'),
