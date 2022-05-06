@@ -2,7 +2,7 @@
   "coluna_usuario": "id_user",
   "tabela_que_contem_usuario": "users",
   "coluna_plano": "id_plan",
-  "tabela_que_contem_plano": "nome-da-tabela-que-armazena-a-coluna",
+  "tabela_que_contem_plano": "plans",
   "coluna_historico_de_reproducoes": "nome-da-coluna",
   "tabela_que_contem_historico_de_reproducoes": "nome-da-tabela-que-armazena-a-coluna",
   "coluna_seguindo_artistas": "nome-da-coluna",
