@@ -127,7 +127,6 @@ VALUES	('Thati', NULL, 23, 1, '2019-10-20'),
         ('Paul', NULL, 46, 2, '2017-01-17');
 
 CREATE TABLE followers (
-	id_following INT PRIMARY KEY AUTO_INCREMENT,
     id_user INT,
 	id_artist INT,
     CONSTRAINT PRIMARY KEY(id_user, id_artist),
@@ -149,7 +148,6 @@ VALUES (1, 1), (1, 4), (1, 3),
        (10, 2), (10, 6);
 
 CREATE TABLE reproduction_history (
-	id_reproduction INT PRIMARY KEY AUTO_INCREMENT,
 	id_user INT,
     id_music INT,
     reproduction_date DATETIME NOT NULL,
