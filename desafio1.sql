@@ -130,6 +130,7 @@ CREATE TABLE followers (
 	id_following INT PRIMARY KEY AUTO_INCREMENT,
     id_user INT,
 	id_artist INT,
+    CONSTRAINT PRIMARY KEY(id_user, id_artist),
     FOREIGN KEY(id_user) REFERENCES users(id_user),
     FOREIGN KEY(id_artist) REFERENCES artists(id_artist)
 );
@@ -152,6 +153,7 @@ CREATE TABLE reproduction_history (
 	id_user INT,
     id_music INT,
     reproduction_date DATETIME NOT NULL,
+    CONSTRAINT PRIMARY KEY(id_user, id_music),
     FOREIGN KEY(id_user) REFERENCES users(id_user),
     FOREIGN KEY(id_music) REFERENCES musics(id_music)
 );
